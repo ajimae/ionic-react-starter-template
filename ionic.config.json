@@ -1,0 +1,7 @@
+{
+  "name": "tasqie",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
