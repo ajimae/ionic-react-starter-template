@@ -7,18 +7,39 @@ const Home: React.FC = () => {
     <IonPage>
       <IonHeader>
         <IonToolbar>
-          <IonTitle>Blank</IonTitle>
+          <IonTitle></IonTitle>
         </IonToolbar>
       </IonHeader>
-      <IonContent fullscreen>
-        <IonHeader collapse="condense">
-          <IonToolbar>
-            <IonTitle size="large">Blank</IonTitle>
-          </IonToolbar>
-        </IonHeader>
-        <ExploreContainer />
+      <IonContent fullscreen className="relative">
+        <div className="text-center absolute left-0 right-0 top-1/2 transform -translate-y-1/2 flex justify-center items-center">
+          <div className="border border-gray-100 rounded-xl shadow-2xl p-8 bg-gradient-to-r from-green-400 via-blue-900 to-blue-400 text-white max-w-lg">
+            <h1 className="text-2xl font-bold">Using TailwindCSS in Ionic with React</h1>
+            <p className="mt-4">This is an example of how you can use <span className="font-bold">TailwindCSS</span> in an <span className="font-bold">Ionic</span> application using <span className="font-bold">React</span> framework.</p>
+          </div>
+        </div>
       </IonContent>
     </IonPage>
+
+    // <IonPage>
+    //   <IonContent fullscreen>
+    //     <IonHeader>
+    //       <IonToolbar>
+    //         <IonTitle size="large">Blank</IonTitle>
+    //       </IonToolbar>
+    //     </IonHeader>
+    //     <ExploreContainer />
+    //   </IonContent>
+    // </IonPage>
+
+    // <div className="h-64">
+    //     <div className="p-4 m-4 bg-green-600">
+    //         <h1 className="text-5xl font-bold text-yellow-300">Tailwind CSS Demo</h1>
+    //     </div>
+    //     <div className="p-4 m-4 bg-green-300 h-full">
+    //         <h2 className="text-green-900">Have much fun using Tailwind CSS</h2>
+    //         <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">My Tailwind Button</button>
+    //     </div>  
+    // </div>
   );
 };
 
