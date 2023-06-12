@@ -11,3 +11,5 @@ Read the full article [here](https://medium.com/p/c038b95af704#3136-23e56f83a5eb
 - Run `npm install` or `yarn install`
 - Run `npm run start:dev` to run the app
 - You can view the app in the browser also using the generated `http://hostname:port` usually http://localhost:8100
+
+![](image.png)
